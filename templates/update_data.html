@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">{{ translations('update_data') }} - {{ table }}</h2>
+        <form method="post">
+            <div class="form-group">
+                {% for column in columns %}
+                <label for="{{ column }}">{{ column }}</label>
+                <input type="text" class="form-control" id="{{ column }}" name="{{ column }}" value="{{ row[loop.index0] }}" required>
+                {% endfor %}
+            </div>
+            <button type="submit" class="btn btn-primary">Update Data</button>
+        </form>
+        <a href="{{ url_for('view_data', table=table) }}" class="btn btn-secondary mt-3">Back to View Data</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

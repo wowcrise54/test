@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ translations('view_data') }} - {{ table }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center">{{ translations('view_data') }} - {{ table }}</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    {% for column in columns %}
+                    <th>{{ column }}</th>
+                    {% endfor %}
+                    <th>{{ translations('actions') }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in rows %}
+                <tr>
+                    {% for cell in row %}
+                    <td>{{ cell }}</td>
+                    {% endfor %}
+                    <td>
+                        <a href="{{ url_for('update_data', table=table, id=row[0]) }}" class="btn btn-warning btn-sm">{{ translations('update') }}</a>
+                        <form action="{{ url_for('delete_data', table=table, id=row[0]) }}" method="post" style="display:inline-block;">
+                            <button type="submit" class="btn btn-danger btn-sm">{{ translations('delete') }}</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">{{ translations('back_to_dashboard') }}</a>
+        <a href="{{ url_for('add_data', table=table) }}" class="btn btn-primary">{{ translations('add_new_data') }}</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

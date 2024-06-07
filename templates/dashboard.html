@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-icon {
+            font-size: 48px;
+            color: #007bff;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        .card-text {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">{{ translations('welcome') }} {{ session['username'] }}</h2>
+        
+        <!-- Flash messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            <div class="alert alert-dismissible fade show" role="alert">
+              {% for category, message in messages %}
+                <div class="alert alert-{{ category }}" role="alert">
+                  {{ message }}
+                </div>
+              {% endfor %}
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          {% endif %}
+        {% endwith %}
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('view_data') }} Customers</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('view_data', table='customers') }}" class="btn btn-primary">{{ translations('view_data') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('view_data') }} Orders</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('view_data', table='orders') }}" class="btn btn-primary">{{ translations('view_data') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('view_data') }} Products</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('view_data', table='products') }}" class="btn btn-primary">{{ translations('view_data') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-tags"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('view_data') }} Categories</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('view_data', table='categories') }}" class="btn btn-primary">{{ translations('view_data') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('view_data') }} Order Dates</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('view_data', table='orderdate') }}" class="btn btn-primary">{{ translations('view_data') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('export_to_excel') }} Customers</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('export_table_data', table='customers') }}" class="btn btn-success">{{ translations('export_to_excel') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('export_to_excel') }} Orders</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('export_table_data', table='orders') }}" class="btn btn-success">{{ translations('export_to_excel') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('export_to_excel') }} Products</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('export_table_data', table='products') }}" class="btn btn-success">{{ translations('export_to_excel') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('export_to_excel') }} Categories</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('export_table_data', table='categories') }}" class="btn btn-success">{{ translations('export_to_excel') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('export_to_excel') }} Order Dates</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('export_table_data', table='orderdate') }}" class="btn btn-success">{{ translations('export_to_excel') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('view_log') }}</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('view_log') }}" class="btn btn-secondary">{{ translations('view_log') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('change_language') }}</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('change_language') }}" class="btn btn-info">{{ translations('change_language') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="card-icon mb-3">
+                            <i class="fas fa-sign-out-alt"></i>
+                        </div>
+                        <h5 class="card-title">{{ translations('logout') }}</h5>
+                        <p class="card-text">
+                            <a href="{{ url_for('logout') }}" class="btn btn-danger">{{ translations('logout') }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

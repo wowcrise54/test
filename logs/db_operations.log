@@ -1,0 +1,622 @@
+2024-06-06 23:43:18,623 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:43:18,624 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:44:16,514 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:44:16,515 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:44:17,000 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:44:17,001 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:44:23,778 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:23] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2024-06-06 23:44:23,801 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:23] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:44:27,998 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-06 23:44:28,011 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:28] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:44:34,678 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:34] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:44:38,984 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:38] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:44:40,122 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:40] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:44:40,127 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:40] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:44:40,141 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:40] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:44:40,200 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:44:41,196 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:41] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:44:41,203 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:41] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:44:41,206 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:41] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:44:42,082 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:42] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:44:45,862 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:45] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:44:46,855 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:46] "[37mGET /view/orders HTTP/1.1[0m" 200 -
+2024-06-06 23:44:51,955 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:51] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:44:53,008 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:53] "[37mGET /view/products HTTP/1.1[0m" 200 -
+2024-06-06 23:44:56,239 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:56] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:44:58,180 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:44:58] "[37mGET /view/categories HTTP/1.1[0m" 200 -
+2024-06-06 23:45:02,084 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:45:02] "[35m[1mGET /update/categories/2 HTTP/1.1[0m" 500 -
+2024-06-06 23:45:02,127 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:45:02] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-06 23:45:02,128 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:45:02] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-06 23:45:02,128 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:45:02] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-06 23:45:02,161 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:45:02] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-06 23:45:02,202 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:45:02] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-06 23:45:59,180 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:45:59] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:46:00,478 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:00] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-06 23:46:10,145 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:46:11,447 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:11] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-06 23:46:11,453 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:11] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:46:12,521 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:12] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-06 23:46:12,527 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:12] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:46:54,766 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:54] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:46:56,223 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:56] "[35m[1mGET /update/customers/1 HTTP/1.1[0m" 500 -
+2024-06-06 23:46:56,275 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:56] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-06 23:46:56,277 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:56] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-06 23:46:56,277 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:56] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-06 23:46:56,331 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:56] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-06 23:46:56,347 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:46:56] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-06 23:50:24,183 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-06 23:50:24,244 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:50:24,691 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:50:24,691 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:51:03,659 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:51:03,660 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:51:04,020 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:51:04,021 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:51:06,398 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:06] "[37mGET /update/customers/1 HTTP/1.1[0m" 200 -
+2024-06-06 23:51:08,408 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:08] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:51:10,315 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:10] "[37mGET /update/customers/1 HTTP/1.1[0m" 200 -
+2024-06-06 23:51:12,755 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:12] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:51:17,645 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:17] "[32mPOST /delete/customers/5 HTTP/1.1[0m" 302 -
+2024-06-06 23:51:17,658 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:17] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:51:17,705 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:51:19,457 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:19] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:51:20,773 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:20] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:51:21,645 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:21] "[37mGET /add/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:51:22,773 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:22] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:51:23,607 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:23] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:51:24,521 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:24] "[37mGET /view/orders HTTP/1.1[0m" 200 -
+2024-06-06 23:51:27,594 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:27] "[37mGET /add/orders HTTP/1.1[0m" 200 -
+2024-06-06 23:51:29,724 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:29] "[37mGET /view/orders HTTP/1.1[0m" 200 -
+2024-06-06 23:51:30,964 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:30] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:51:32,041 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:32] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-06 23:51:32,046 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:32] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:51:34,977 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:34] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:51:35,034 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:51:35,948 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:35] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:51:37,091 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:37] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-06 23:51:39,116 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:51:45,160 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:51:45] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:53:38,976 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-06 23:53:39,039 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:53:39,422 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:53:39,423 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:53:40,432 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-06 23:53:40,498 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:53:40,892 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:53:40,893 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:53:47,031 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:53:47,032 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:53:47,396 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:53:47,397 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:53:50,737 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:50] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:53:55,190 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:55] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:53:55,254 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:53:56,368 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:56] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:53:56,374 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:56] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:53:56,381 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:56] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:53:57,263 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:57] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:53:58,440 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:58] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:53:59,160 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:59] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:53:59,168 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:59] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:53:59,174 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:53:59] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:54:00,233 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:54:00] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-06 23:54:01,945 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:54:01] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:56:48,412 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:56:48,413 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:56:48,798 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:56:48,799 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:56:52,394 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:56:52] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:57:05,640 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:57:05] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-06 23:57:05,646 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:57:05] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:57:31,204 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:57:31] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-06 23:57:34,099 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:57:34] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:10:08,923 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 00:10:09,148 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 00:10:10,921 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 00:10:10,924 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 00:10:16,545 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 00:10:16,548 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 00:10:18,249 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 00:10:18,251 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 00:10:19,697 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:19] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:10:23,621 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:23] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 00:10:23,647 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:23] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:10:27,196 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:27] "[32mGET /export/products HTTP/1.1[0m" 302 -
+2024-06-07 00:10:27,219 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:27] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:10:29,300 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:29] "[32mGET /export/products HTTP/1.1[0m" 302 -
+2024-06-07 00:10:29,333 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:29] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:10:47,711 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:47] "[37mGET /view/orders HTTP/1.1[0m" 200 -
+2024-06-07 00:10:49,195 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:49] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:10:50,040 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:10:50] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 00:11:06,951 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:06] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:11:10,334 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:10] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 00:11:10,386 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:10] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 00:11:10,414 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:11:13,962 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:13] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 00:11:15,438 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:15] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:11:17,303 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:17] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 00:11:17,343 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:17] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 00:11:17,364 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:17] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:11:19,714 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:19] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-07 00:11:24,197 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:24] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:11:58,062 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:58] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 00:11:58,092 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:11:58] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:16:16,649 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 00:16:16,866 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 00:16:18,668 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 00:16:18,670 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 00:16:30,969 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 00:16:31,191 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 00:16:33,002 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 00:16:33,004 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 00:17:49,211 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 00:17:49,213 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 00:17:51,109 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 00:17:51,111 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 00:18:12,279 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:18:12] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:18:14,642 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:18:14] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 00:18:14,675 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:18:14] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:18:18,073 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:18:18] "[37mGET /export_data HTTP/1.1[0m" 200 -
+2024-06-07 00:18:21,272 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:18:21] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 00:18:21,306 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:18:21] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:21:44,720 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:21:44] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:22:01,848 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:22:01] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 00:22:03,234 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:22:03] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:22:06,496 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:22:06] "[32mGET /export/orders HTTP/1.1[0m" 302 -
+2024-06-07 00:22:06,536 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:22:06] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:25:57,930 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 00:25:58,167 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 00:25:59,864 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 00:25:59,866 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 00:26:12,585 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 00:26:12,588 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 00:26:14,567 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 00:26:14,569 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 00:26:16,666 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:26:16] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:26:22,364 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:26:22] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 00:26:22,391 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:26:22] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:26:26,331 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:26:26] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 00:26:26,357 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:26:26] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:26:55,717 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:26:55] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 00:26:55,742 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:26:55] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 00:31:02,262 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:31:02] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 00:31:04,444 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 00:31:04] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:17:27,225 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 01:17:27,298 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:27] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:17:31,456 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 01:17:31,478 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:31] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:17:33,296 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:33] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 01:17:37,465 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:37] "[37mGET /update/customers/6 HTTP/1.1[0m" 200 -
+2024-06-07 01:17:45,038 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:45] "[32mPOST /update/customers/6 HTTP/1.1[0m" 302 -
+2024-06-07 01:17:45,138 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:45] "[37mGET /update/customers/6 HTTP/1.1[0m" 200 -
+2024-06-07 01:17:46,911 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:46] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 01:17:50,244 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:50] "[37mGET /update/customers/6 HTTP/1.1[0m" 200 -
+2024-06-07 01:17:59,414 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:59] "[32mPOST /update/customers/6 HTTP/1.1[0m" 302 -
+2024-06-07 01:17:59,497 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:17:59] "[37mGET /update/customers/6 HTTP/1.1[0m" 200 -
+2024-06-07 01:18:01,081 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:01] "[32mPOST /update/customers/6 HTTP/1.1[0m" 302 -
+2024-06-07 01:18:01,171 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:01] "[37mGET /update/customers/6 HTTP/1.1[0m" 200 -
+2024-06-07 01:18:02,414 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:02] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 01:18:04,628 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:04] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:18:06,469 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:06] "[37mGET /view/orders HTTP/1.1[0m" 200 -
+2024-06-07 01:18:10,563 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:18:12,221 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:12] "[37mGET /view/products HTTP/1.1[0m" 200 -
+2024-06-07 01:18:13,866 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:13] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:18:18,427 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:18] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-07 01:18:21,839 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:21] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:18:24,909 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:24] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:18:24,951 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:24] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 01:18:25,007 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:25] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:18:39,284 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:39] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:18:39,317 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:39] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 01:18:39,358 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:18:43,327 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:43] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 01:18:45,624 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:45] "[32mPOST /delete/customers/6 HTTP/1.1[0m" 302 -
+2024-06-07 01:18:45,693 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:45] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 01:18:52,273 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:52] "[37mGET /add/customers HTTP/1.1[0m" 200 -
+2024-06-07 01:18:55,605 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:55] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 01:18:57,751 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:18:57] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:19:16,192 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:19:16] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 01:19:21,704 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:19:21] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:19:23,242 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:19:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 01:19:23,293 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:19:23] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:19:28,856 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:19:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 01:19:29,057 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:19:29] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:20:44,466 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:44] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:44,500 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:44] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 01:20:44,551 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:44] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:20:48,587 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 01:20:48,653 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:48] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:51,406 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:51] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:51,438 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:51] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:52,598 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:52] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:52,623 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:52] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:54,909 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:54] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:54,935 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:54] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:55,233 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-07 01:20:55,937 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:55] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:55,984 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:55] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:56,623 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:56] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:56,684 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:56] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:57,480 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:57] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:57,527 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:57] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:58,156 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:58] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:58,181 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:58] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:58,910 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:58] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:58,958 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:58] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:20:59,668 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:59] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 01:20:59,698 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:20:59] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 01:21:46,588 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:21:46] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 01:21:46,622 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:21:46] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:23:43,308 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 01:23:43,389 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 01:23:43,800 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 01:23:43,801 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 01:24:05,930 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 01:24:06,000 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 01:24:06,381 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 01:24:06,382 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 01:24:28,275 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 01:24:28,276 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 01:24:28,647 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 01:24:28,647 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 01:24:36,748 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:24:36] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:28:13,073 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 01:28:13,128 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 01:28:13,513 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 01:28:13,513 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 01:28:34,326 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 01:28:34,326 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 01:28:34,691 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 01:28:34,691 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 01:28:37,974 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:28:37] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:28:41,603 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:28:41] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 01:28:41,608 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:28:41] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:30:10,355 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 01:30:10,455 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 01:30:10,842 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 01:30:10,843 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 01:30:44,036 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 01:30:44,092 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 01:30:44,475 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 01:30:44,475 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 01:30:51,630 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 01:30:51,630 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 01:30:51,981 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 01:30:51,981 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 01:30:55,172 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:30:55] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 01:30:56,615 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:30:56] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 01:30:56,624 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 01:30:56] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:10:16,722 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 02:10:16,819 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:10:17,208 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:10:17,209 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:10:36,886 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 02:10:36,886 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:10:37,252 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:10:37,252 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:10:40,169 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:10:40] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:10:41,919 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:10:41] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 02:10:41,924 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:10:41] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:11:46,665 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 02:11:46,666 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:11:47,037 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:11:47,038 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:11:48,729 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:11:48] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:11:52,428 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:11:52] "[37mGET /update/customers/2 HTTP/1.1[0m" 200 -
+2024-06-07 02:11:55,468 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:11:55] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:11:56,817 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:11:56] "[37mGET /add/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:20:05,243 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 02:20:05,322 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:25:43,920 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:25:43,922 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:25:52,788 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 02:25:52,789 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:25:53,156 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:25:53,157 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:25:56,862 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:25:56] "[37mGET /update/customers/7 HTTP/1.1[0m" 200 -
+2024-06-07 02:25:58,727 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:25:58] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:26:00,505 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:00] "[37mGET /update/customers/7 HTTP/1.1[0m" 200 -
+2024-06-07 02:26:02,624 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:02] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:26:04,837 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:04] "[37mGET /update/customers/7 HTTP/1.1[0m" 200 -
+2024-06-07 02:26:06,984 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:06] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:26:08,776 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:08] "[37mGET /update/customers/2 HTTP/1.1[0m" 200 -
+2024-06-07 02:26:16,348 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:16] "[32mPOST /update/customers/2 HTTP/1.1[0m" 302 -
+2024-06-07 02:26:16,365 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:16] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:26:18,225 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:18] "[37mGET /update/customers/2 HTTP/1.1[0m" 200 -
+2024-06-07 02:26:19,619 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:19] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:26:21,174 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:21] "[37mGET /update/customers/7 HTTP/1.1[0m" 200 -
+2024-06-07 02:26:29,164 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:29] "[32mPOST /update/customers/7 HTTP/1.1[0m" 302 -
+2024-06-07 02:26:29,188 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:26:29] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:32:28,063 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 02:32:28,182 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:32:28,661 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:32:28,661 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:32:38,027 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 02:32:38,028 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:32:38,431 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:32:38,432 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:32:41,687 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:41] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:32:44,063 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:44] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:32:47,495 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:47] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:32:49,074 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:49] "[37mGET /view/products HTTP/1.1[0m" 200 -
+2024-06-07 02:32:50,501 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:50] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:32:52,184 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:52] "[37mGET /view/orderdate HTTP/1.1[0m" 200 -
+2024-06-07 02:32:53,300 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:53] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:32:55,450 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:55] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-07 02:32:56,785 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:32:56] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:33:00,367 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:00] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 02:33:00,384 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:00] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:33:00,391 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:00] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:33:02,082 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:02] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 02:33:02,089 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:02] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:33:02,102 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:02] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:33:05,649 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:05] "[37mGET /view/categories HTTP/1.1[0m" 200 -
+2024-06-07 02:33:07,569 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:07] "[37mGET /add/categories HTTP/1.1[0m" 200 -
+2024-06-07 02:33:10,414 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:10] "[32mPOST /add/categories HTTP/1.1[0m" 302 -
+2024-06-07 02:33:10,431 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:10] "[37mGET /view/categories HTTP/1.1[0m" 200 -
+2024-06-07 02:33:11,569 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:11] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:33:16,939 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:33:16] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-07 02:34:04,673 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:34:04] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:34:07,505 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:34:07] "[32mGET /export/orderdate HTTP/1.1[0m" 302 -
+2024-06-07 02:34:07,512 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:34:07] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:42:55,559 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 02:42:55,643 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:42:56,083 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:42:56,083 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:42:59,002 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 02:42:59,003 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:42:59,429 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:42:59,430 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:43:02,277 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:02] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:04,378 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:04] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:08,095 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:08] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:09,385 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:09] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:43:11,323 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:11] "[35m[1mGET /add/customers HTTP/1.1[0m" 500 -
+2024-06-07 02:43:11,378 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:11] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:43:11,379 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:11] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:11,381 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:11] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:11,418 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:11] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:11,445 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:11] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:20,125 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:20] "[35m[1mGET /update/customers/1 HTTP/1.1[0m" 500 -
+2024-06-07 02:43:20,181 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:20] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:20,181 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:20] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:43:20,184 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:20] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:20,231 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:20] "[37mGET /update/customers/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:23,462 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:23] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:25,033 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:25] "[37mGET /view/categories HTTP/1.1[0m" 200 -
+2024-06-07 02:43:27,143 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:27] "[35m[1mGET /update/categories/4 HTTP/1.1[0m" 500 -
+2024-06-07 02:43:27,214 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:27] "[37mGET /update/categories/4?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:43:27,215 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:27] "[37mGET /update/categories/4?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:27,216 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:27] "[37mGET /update/categories/4?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:27,262 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:27] "[37mGET /update/categories/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:27,280 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:27] "[37mGET /update/categories/4?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:29,413 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:29] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:31,264 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:31] "[35m[1mGET /view_log HTTP/1.1[0m" 500 -
+2024-06-07 02:43:31,325 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:31] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:43:31,328 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:31] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:31,329 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:31] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:31,365 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:31] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:31,383 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:31] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:35,067 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 02:43:35,085 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:35] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 02:43:41,883 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 02:43:41,967 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:41] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:44,626 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:44] "[35m[1mGET /export/products HTTP/1.1[0m" 500 -
+2024-06-07 02:43:44,680 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:44] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:43:44,681 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:44] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:44,681 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:44] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:44,715 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:44] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:44,736 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:44] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:47,555 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:47] "[32mGET /view/customers HTTP/1.1[0m" 302 -
+2024-06-07 02:43:47,564 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:47] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:49,217 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:49] "[37mGET /view/orders HTTP/1.1[0m" 200 -
+2024-06-07 02:43:50,352 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:50] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:51,428 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:51] "[37mGET /view/products HTTP/1.1[0m" 200 -
+2024-06-07 02:43:52,310 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:52] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:43:53,137 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:53] "[37mGET /view/categories HTTP/1.1[0m" 200 -
+2024-06-07 02:43:56,044 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:56] "[35m[1mGET /update/categories/2 HTTP/1.1[0m" 500 -
+2024-06-07 02:43:56,112 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:56] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:43:56,112 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:56] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:56,113 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:56] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:56,166 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:56] "[37mGET /update/categories/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:43:59,278 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:59] "[35m[1mGET /export/products HTTP/1.1[0m" 500 -
+2024-06-07 02:43:59,345 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:59] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:43:59,346 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:59] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:59,348 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:59] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:43:59,403 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:43:59] "[37mGET /export/products?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:44:02,580 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:02] "[35m[1mGET /view_log HTTP/1.1[0m" 500 -
+2024-06-07 02:44:02,645 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:02] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:44:02,646 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:02] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:44:02,647 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:02] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:44:02,696 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:02] "[37mGET /view_log?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:44:05,501 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:05] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 02:44:05,512 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:05] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:44:05,516 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:05] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:44:08,113 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:08] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-07 02:44:08,117 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:08] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:44:08,131 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:08] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:44:11,290 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 02:44:11,299 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:11] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 02:44:16,495 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 02:44:16,500 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:16] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:44:17,870 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:17] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:44:21,483 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:21] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:44:22,261 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:22] "[35m[1mGET /add/customers HTTP/1.1[0m" 500 -
+2024-06-07 02:44:22,319 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:22] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:44:22,322 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:22] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:44:22,323 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:22] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:44:22,383 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:44:22] "[37mGET /add/customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:48:28,576 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 02:48:28,661 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:48:29,142 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:48:29,143 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:48:33,809 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 02:48:33,809 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:48:34,211 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:48:34,212 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:48:38,721 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:38] "[35m[1mGET /view/customers HTTP/1.1[0m" 500 -
+2024-06-07 02:48:38,745 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:38] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:48:38,746 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:38] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:48:38,747 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:38] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:48:38,784 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:38] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:48:38,800 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:38] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:48:40,009 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-07 02:48:42,108 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 02:48:42,137 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:42] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:48:43,328 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:43] "[35m[1mGET /view/customers HTTP/1.1[0m" 500 -
+2024-06-07 02:48:43,387 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:43] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:48:43,388 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:43] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:48:43,390 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:43] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:48:43,439 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:43] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:48:51,820 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 02:48:51,830 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:51] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:48:56,514 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:56] "[35m[1mGET /view/orders HTTP/1.1[0m" 500 -
+2024-06-07 02:48:56,563 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:56] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:48:56,563 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:56] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:48:56,565 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:56] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:48:56,589 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:56] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:48:56,606 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:48:56] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:53:06,142 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 02:53:06,257 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:53:06,769 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:53:06,772 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:53:10,924 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 02:53:10,924 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:53:11,306 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:53:11,307 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:53:13,723 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:13] "[35m[1mGET /view/orders HTTP/1.1[0m" 500 -
+2024-06-07 02:53:13,748 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:13] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:53:13,750 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:13] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:53:13,753 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:13] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:53:13,798 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:13] "[37mGET /view/orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:53:16,700 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:16] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:53:18,382 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:18] "[35m[1mGET /view/customers HTTP/1.1[0m" 500 -
+2024-06-07 02:53:18,440 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:18] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2024-06-07 02:53:18,441 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:18] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2024-06-07 02:53:18,443 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:18] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2024-06-07 02:53:18,491 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:53:18] "[37mGET /view/customers?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2024-06-07 02:57:54,253 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-07 02:57:54,352 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:57:54,782 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:57:54,783 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:58:01,078 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-07 02:58:01,078 - werkzeug - INFO -  * Restarting with stat
+2024-06-07 02:58:01,455 - werkzeug - WARNING -  * Debugger is active!
+2024-06-07 02:58:01,455 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-07 02:58:04,264 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:04] "[32mGET /view/customers HTTP/1.1[0m" 302 -
+2024-06-07 02:58:04,274 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:04] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:04,295 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:04] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:06,719 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:06] "[32mGET /view/customers HTTP/1.1[0m" 302 -
+2024-06-07 02:58:06,725 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:06] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:06,732 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:06] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:06,864 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-07 02:58:07,462 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:07] "[32mGET /view/customers HTTP/1.1[0m" 302 -
+2024-06-07 02:58:07,476 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:07] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:07,484 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:07] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:08,241 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:08] "[32mGET /view/orders HTTP/1.1[0m" 302 -
+2024-06-07 02:58:08,245 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:08] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:08,258 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:08] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:09,706 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:09] "[32mGET /view/products HTTP/1.1[0m" 302 -
+2024-06-07 02:58:09,711 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:09] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:09,724 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:09] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:10,077 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:10] "[32mGET /view/products HTTP/1.1[0m" 302 -
+2024-06-07 02:58:10,081 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:10] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:10,094 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:10,939 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:10] "[32mGET /view/orderdate HTTP/1.1[0m" 302 -
+2024-06-07 02:58:10,947 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:10] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:10,963 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:11,264 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:11] "[32mGET /view/orderdate HTTP/1.1[0m" 302 -
+2024-06-07 02:58:11,275 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:11] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:11,295 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:11] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:12,659 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:12] "[32mGET /view/categories HTTP/1.1[0m" 302 -
+2024-06-07 02:58:12,672 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:12] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:12,677 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:12] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:13,040 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:13] "[32mGET /view/categories HTTP/1.1[0m" 302 -
+2024-06-07 02:58:13,047 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:13] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:13,063 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:13] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:14,896 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:14] "[32mGET /export/orderdate HTTP/1.1[0m" 302 -
+2024-06-07 02:58:14,910 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:14] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:14,914 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:14] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:16,789 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:16] "[32mGET /export/orders HTTP/1.1[0m" 302 -
+2024-06-07 02:58:16,796 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:16] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:16,809 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:16] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:17,608 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:17] "[32mGET /export/products HTTP/1.1[0m" 302 -
+2024-06-07 02:58:17,614 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:17] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:17,627 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:17] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:18,595 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:18] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 02:58:18,608 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:18] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:18,614 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:18] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:19,577 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:19] "[32mGET /export/categories HTTP/1.1[0m" 302 -
+2024-06-07 02:58:19,592 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:19] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:19,596 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:19] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:21,161 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:21] "[32mGET /view_log HTTP/1.1[0m" 302 -
+2024-06-07 02:58:21,166 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:21] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-07 02:58:21,177 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:21] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:24,485 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:24] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 02:58:24,496 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:24] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 02:58:30,629 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 02:58:30,637 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:30] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:31,622 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:31] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:58:35,499 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:35] "[37mGET /add/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:58:36,680 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:36] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:58:39,831 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:42,090 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:42] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-07 02:58:43,610 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:43] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:46,337 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:46] "[32mGET /export/categories HTTP/1.1[0m" 302 -
+2024-06-07 02:58:46,346 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:46] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:49,694 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 02:58:49,700 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:49] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 02:58:56,355 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 02:58:56,389 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:56] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:58,253 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:58] "[32mGET /view/customers HTTP/1.1[0m" 302 -
+2024-06-07 02:58:58,265 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:58] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:58:59,455 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:58:59] "[37mGET /view/orders HTTP/1.1[0m" 200 -
+2024-06-07 02:59:01,158 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:01] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:02,092 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:02] "[37mGET /view/orders HTTP/1.1[0m" 200 -
+2024-06-07 02:59:02,946 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:02] "[32mGET /add/orders HTTP/1.1[0m" 302 -
+2024-06-07 02:59:02,962 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:02] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:05,170 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:05] "[37mGET /view/products HTTP/1.1[0m" 200 -
+2024-06-07 02:59:05,950 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:05] "[32mGET /add/products HTTP/1.1[0m" 302 -
+2024-06-07 02:59:05,961 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:05] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:07,448 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:07] "[37mGET /view/categories HTTP/1.1[0m" 200 -
+2024-06-07 02:59:09,491 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:09] "[32mGET /add/categories HTTP/1.1[0m" 302 -
+2024-06-07 02:59:09,498 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:09] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:10,990 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:10] "[37mGET /view/orderdate HTTP/1.1[0m" 200 -
+2024-06-07 02:59:11,934 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:11] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:13,114 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:13] "[32mGET /export/customers HTTP/1.1[0m" 302 -
+2024-06-07 02:59:13,128 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:13] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:15,362 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:15] "[32mGET /export/categories HTTP/1.1[0m" 302 -
+2024-06-07 02:59:15,379 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:15] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:17,243 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:17] "[32mGET /export/products HTTP/1.1[0m" 302 -
+2024-06-07 02:59:17,249 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:17] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:18,409 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:18] "[32mGET /export/orders HTTP/1.1[0m" 302 -
+2024-06-07 02:59:18,415 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:18] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:18,538 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-07 02:59:19,551 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:19] "[37mGET /view/categories HTTP/1.1[0m" 200 -
+2024-06-07 02:59:20,562 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:20] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:22,076 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:22] "[32mGET /view_log HTTP/1.1[0m" 302 -
+2024-06-07 02:59:22,081 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:22] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:30,077 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 02:59:30,082 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:30] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 02:59:36,665 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 02:59:36,679 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:36] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:37,982 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:37] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:59:38,048 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-07 02:59:39,858 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:39] "[37mGET /update/customers/2 HTTP/1.1[0m" 200 -
+2024-06-07 02:59:43,131 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:43] "[32mPOST /update/customers/2 HTTP/1.1[0m" 302 -
+2024-06-07 02:59:43,145 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:43] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 02:59:46,495 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:46] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 02:59:48,684 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 02:59:48,695 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 02:59:48] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-07 03:00:01,499 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-07 03:00:01,525 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:01] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 03:00:03,484 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:03] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 03:00:07,296 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:07] "[37mGET /update/customers/7 HTTP/1.1[0m" 200 -
+2024-06-07 03:00:09,010 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:09] "[37mGET /view/customers HTTP/1.1[0m" 200 -
+2024-06-07 03:00:10,132 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:10] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 03:00:12,069 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:12] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-07 03:00:16,152 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:16] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 03:00:17,884 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:17] "[37mGET /view_log HTTP/1.1[0m" 200 -
+2024-06-07 03:00:18,979 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:18] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-07 03:00:21,158 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-07 03:00:21,165 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2024 03:00:21] "[37mGET / HTTP/1.1[0m" 200 -

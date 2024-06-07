@@ -1,0 +1,119 @@
+2024-06-06 23:21:11,503 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:21:11,504 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:21:11,623 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:21:11,682 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:21:29,945 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:29] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:21:30,023 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:30] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:21:30,026 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:30] "[37mGET /static/styles.css HTTP/1.1[0m" 200 -
+2024-06-06 23:21:34,273 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:34] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:21:34,275 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:34] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:21:34,320 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:34] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:21:36,250 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:36] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:21:36,253 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:36] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:21:36,291 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:36] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:21:40,389 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-06 23:21:40,393 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:40] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:21:40,433 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:40] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:21:45,116 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-06 23:21:45,120 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:45] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:21:45,160 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:21:45] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:24:48,938 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-06 23:24:48,986 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:24:49,143 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:24:49,144 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:24:58,022 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:24:58,023 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:24:58,168 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:24:58,168 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:25:02,161 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:02] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:25:02,192 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:02] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:25:02,935 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:02] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:25:02,970 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:02] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:25:03,155 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:03] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:25:03,188 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:03] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:25:03,339 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:03] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:25:03,378 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:03] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:25:03,557 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:03] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:25:03,602 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:03] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:25:06,172 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-06 23:25:06,180 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:06] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:25:06,216 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:25:06] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:26:01,703 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:01] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:26:01,709 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:01] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:26:01,721 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:01] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:26:01,758 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:01] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:26:02,927 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:02] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:26:02,931 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:02] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:26:02,935 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:02] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:26:02,962 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:02] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:26:03,963 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:03] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:26:03,967 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:03] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:26:03,974 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:03] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:26:04,006 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:04] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:26:05,428 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:05] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:26:05,431 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:05] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:26:05,434 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:05] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:26:05,464 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:05] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:26:05,966 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:05] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:26:05,969 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:05] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:26:05,972 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:05] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:26:06,004 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:06] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:26:06,688 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:06] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:26:06,691 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:06] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:26:06,695 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:06] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:26:06,719 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:06] "[33mGET /static/script.js HTTP/1.1[0m" 404 -
+2024-06-06 23:26:26,304 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:26:26] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+2024-06-06 23:28:37,845 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-06 23:28:37,872 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:28:38,025 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:28:38,025 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:28:58,805 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:28:58,806 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:28:58,948 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:28:58,949 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:29:01,102 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:29:01] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:34:43,994 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-06 23:34:44,013 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:34:44,167 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:34:44,167 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:34:49,077 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:34:49,077 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:34:49,211 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:34:49,211 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:34:52,403 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:34:52] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:34:54,450 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:34:54] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:35:01,131 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2024-06-06 23:35:01,132 - werkzeug - INFO -  * Restarting with stat
+2024-06-06 23:35:01,283 - werkzeug - WARNING -  * Debugger is active!
+2024-06-06 23:35:01,283 - werkzeug - INFO -  * Debugger PIN: 337-845-577
+2024-06-06 23:35:03,940 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:03] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:35:10,032 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:10] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+2024-06-06 23:35:12,828 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:12] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+2024-06-06 23:35:16,024 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:16] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+2024-06-06 23:35:16,086 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:35:28,282 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:28] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:35:28,288 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:28] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:35:33,081 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:33] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:35:33,086 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:33] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:35:33,091 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:33] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:35:34,304 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:34] "[32mGET /change_language HTTP/1.1[0m" 302 -
+2024-06-06 23:35:34,307 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:34] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:35:34,333 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:34] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:35:35,177 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:35] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-06 23:35:35,188 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:35] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:35:39,184 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-06-06 23:35:39,188 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:35:39] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:39:11,964 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:11] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:39:12,841 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:39:18,027 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:18] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:39:18,910 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:39:22,047 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:22] "[32mGET / HTTP/1.1[0m" 302 -
+2024-06-06 23:39:22,052 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:22] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:39:23,631 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:23] "[37mGET /dashboard HTTP/1.1[0m" 200 -
+2024-06-06 23:39:25,324 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:39:25,742 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-06-06 23:39:25,749 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:25] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:39:26,615 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:26] "[37mGET / HTTP/1.1[0m" 200 -
+2024-06-06 23:39:28,377 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2024 23:39:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-06-06 23:43:17,790 - werkzeug - INFO -  * Detected change in '/home/morozov/test/app.py', reloading
+2024-06-06 23:43:17,808 - werkzeug - INFO -  * Restarting with stat
